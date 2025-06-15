@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Internet Fibra",
+    "vencimento": "2025-05-30",
+    "url": "https://meu-provedor.com/fatura"
+  },
+  {
+    "nome": "Cartão de Crédito",
+    "vencimento": "2025-06-05",
+    "url": "https://bancoexemplo.com/cartao"
+  },
+  {
+    "nome": "Energia Elétrica",
+    "vencimento": "2025-05-30",
+    "url": "https://site-da-energia.com/boleto"
+  },
+  {
+    "nome": "Internet",
+    "vencimento": "2025-06-02",
+    "url": "https://site-do-provedor.com/fatura"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "email_origem": "seu.email@gmail.com",
+  "senha": "senha_do_app_ou_sua_senha",
+  "smtp": "smtp.gmail.com",
+  "porta": 587,
+  "email_destino": "voce.mesmo@gmail.com"
+}
