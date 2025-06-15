@@ -22,12 +22,12 @@ class AppContas(QWidget):
         filtros = QHBoxLayout()
         self.filtro_status = "todas"
         
-        self.layout = QVBoxLayout()
+        self.layout_principal = QVBoxLayout()
         self.lista_contas = QListWidget()
         self.atualizar_lista()
 
-        self.layout.addWidget(QLabel("Contas próximas do vencimento:"))
-        self.layout.addWidget(self.lista_contas)
+        self.layout_principal.addWidget(QLabel("Contas próximas do vencimento:"))
+        self.layout_principal.addWidget(self.lista_contas)
 
         # Área de cadastro
         self.campo_nome = QLineEdit()
@@ -49,7 +49,7 @@ class AppContas(QWidget):
         formulario.addWidget(self.campo_url)
         formulario.addWidget(btn_add)
 
-        self.layout.addLayout(formulario)
+        self.layout_principal.addLayout(formulario)
 
         btns = QHBoxLayout()
         btn_pagar = QPushButton("💰 Marcar como paga")
@@ -71,14 +71,14 @@ class AppContas(QWidget):
         filtros.addWidget(btn_todas)
         filtros.addWidget(btn_vencer)
         filtros.addWidget(btn_vencidas)
-        self.layout.addLayout(filtros)
+        self.layout_principal.addLayout(filtros)
 
         btns.addWidget(btn_pagar)
         btns.addWidget(btn_abrir)
         btns.addWidget(btn_atualizar)
-        self.layout.addLayout(btns)
+        self.layout_principal.addLayout(btns)
 
-        self.setLayout(self.layout)
+        self.setLayout(self.layout_principal)
 
     def set_filtro(self, status):
         self.filtro_status = status
@@ -111,7 +111,7 @@ class AppContas(QWidget):
     def marcar_como_paga(self):
         item = self.lista_contas.currentItem()
         if not item:
-            return QMessageBox.warning(self, "Atenção", "Selecione uma conta.")
+            QMessageBox.warning(self, "Atenção", "Selecione uma conta.")
 
         conta = item.data(1000)
         marcar_como_paga(conta["id"])
@@ -122,7 +122,7 @@ class AppContas(QWidget):
     def abrir_site(self):
         item = self.lista_contas.currentItem()
         if not item:
-            return QMessageBox.warning(self, "Atenção", "Selecione uma conta.")
+            QMessageBox.warning(self, "Atenção", "Selecione uma conta.")
         
         conta = item.data(1000)
         webbrowser.open(conta["url"])

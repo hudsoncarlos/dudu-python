@@ -49,7 +49,7 @@ entry_url = tk.Entry(root, width=60)
 entry_url.pack()
 
 # Idioma
-tk.Label(root, text="Idioma da Legenda (ex: pt, en):").pack()v
+tk.Label(root, text="Idioma da Legenda (ex: pt, en):").pack()
 entry_idioma = tk.Entry(root, width=10)
 entry_idioma.pack()
 
