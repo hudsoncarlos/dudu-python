@@ -1,0 +1,122 @@
+[
+    {
+        "nome": "Pietra Fernandes",
+        "cpf": "985.127.643-09",
+        "email": "da-rochapaulo@example.org",
+        "telefone": "+55 84 4079-8625",
+        "cidade": "Martins das Pedras",
+        "personagem": "Sr. Boaventura de Bolsin",
+        "raça": "Hobbit",
+        "lugar": "Rohan",
+        "idioma": "Valarin",
+        "item_mágico": "Andúril"
+    },
+    {
+        "nome": "Mathias Machado",
+        "cpf": "610.354.982-51",
+        "email": "hpimenta@example.org",
+        "telefone": "41 4197 9853",
+        "cidade": "Rios da Praia",
+        "personagem": "Gandalf",
+        "raça": "Homem",
+        "lugar": "Rohan",
+        "idioma": "Quenya",
+        "item_mágico": "Andúril"
+    },
+    {
+        "nome": "Mateus Campos",
+        "cpf": "321.687.509-12",
+        "email": "leticia62@example.net",
+        "telefone": "81 4755-5606",
+        "cidade": "Cavalcanti",
+        "personagem": "Beren",
+        "raça": "Valar",
+        "lugar": "Aman",
+        "idioma": "Valarin",
+        "item_mágico": "Silmaril"
+    },
+    {
+        "nome": "Bianca Almeida",
+        "cpf": "749.501.386-93",
+        "email": "hcosta@example.net",
+        "telefone": "+55 (071) 1754 9973",
+        "cidade": "Moura",
+        "personagem": "Lúthien",
+        "raça": "Maiar",
+        "lugar": "Gondor",
+        "idioma": "Valarin",
+        "item_mágico": "Silmaril"
+    },
+    {
+        "nome": "Kamilly Aparecida",
+        "cpf": "327.061.495-07",
+        "email": "davi-luccasouza@example.com",
+        "telefone": "+55 (021) 2063 9593",
+        "cidade": "Oliveira",
+        "personagem": "Gandalf",
+        "raça": "Elfo",
+        "lugar": "Valfenda",
+        "idioma": "Entês",
+        "item_mágico": "Andúril"
+    },
+    {
+        "nome": "Carlos Eduardo Leão",
+        "cpf": "730.264.519-16",
+        "email": "djesus@example.com",
+        "telefone": "(041) 1138-8183",
+        "cidade": "Macedo",
+        "personagem": "Beren",
+        "raça": "Hobbit",
+        "lugar": "Condado",
+        "idioma": "Entês",
+        "item_mágico": "Silmaril"
+    },
+    {
+        "nome": "Anthony Fogaça",
+        "cpf": "862.074.951-01",
+        "email": "esantos@example.org",
+        "telefone": "+55 81 7977 3862",
+        "cidade": "Abreu dos Dourados",
+        "personagem": "Glorfindel",
+        "raça": "Hobbit",
+        "lugar": "Floresta das Trevas",
+        "idioma": "Westron",
+        "item_mágico": "Silmaril"
+    },
+    {
+        "nome": "Gabrielly Rodrigues",
+        "cpf": "813.642.507-80",
+        "email": "yoliveira@example.net",
+        "telefone": "(081) 7445 5716",
+        "cidade": "Cardoso",
+        "personagem": "Roverandom",
+        "raça": "Dragão",
+        "lugar": "Angband",
+        "idioma": "Entês",
+        "item_mágico": "Arkenstone"
+    },
+    {
+        "nome": "Manuela Costela",
+        "cpf": "650.931.427-43",
+        "email": "mporto@example.org",
+        "telefone": "+55 (021) 3862-4195",
+        "cidade": "Casa Grande",
+        "personagem": "Frodo",
+        "raça": "Maiar",
+        "lugar": "Gondor",
+        "idioma": "Sindarin",
+        "item_mágico": "Cajado de Gandalf"
+    },
+    {
+        "nome": "Ana Luiza Mendes",
+        "cpf": "475.039.128-04",
+        "email": "lucas55@example.org",
+        "telefone": "+55 61 7031-1482",
+        "cidade": "Freitas",
+        "personagem": "Melian",
+        "raça": "Homem",
+        "lugar": "Númenor",
+        "idioma": "Entês",
+        "item_mágico": "O Um Anel"
+    }
+]
